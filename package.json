@@ -12,13 +12,19 @@
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.18.3",
-    "eslint-plugin-react-hooks": "^2.3.0"
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "npm-watch": "^0.6.0"
   },
   "dependencies": {
     "express": "^4.17.1",
     "express-basic-auth": "^1.2.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npm-watch start",
+    "start": "npx @google-cloud/functions-framework --target=app"
+  },
+  "watch": {
+    "start": "*.js"
   }
 }
