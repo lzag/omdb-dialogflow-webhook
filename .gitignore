@@ -1,0 +1,4 @@
+node_modules/
+gcloud.json
+.vscode/
+.env.prod.yml

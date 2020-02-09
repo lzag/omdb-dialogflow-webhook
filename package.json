@@ -1,0 +1,24 @@
+{
+  "name": "omdb-webhook",
+  "version": "1.0.0",
+  "description": "Webhook that searches for data in OMDB and returns a response for Dialogflow chatbot",
+  "author": "Lukasz Zagroba",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^1.4.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^2.3.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
